@@ -3,7 +3,7 @@ const contact_sheet = document.querySelector('.contact-sheet');
 
 const file_input = document.createElement('input');
 file_input.type = 'file';
-file_input.accept = '.cr2';
+file_input.accept = '.rw2';
 file_input.multiple = true;
 upload_container.appendChild(file_input);
 
